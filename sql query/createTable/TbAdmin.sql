@@ -1,0 +1,16 @@
+CREATE TABLE TbAdmin(
+	nUserID	int not null,
+	sUserName nvarchar(120) not null,
+	sSecurityCode	nvarchar(250) not null,
+	nTitleID	int not null,
+	sFname	nvarchar(120) not null,
+	sLname	nvarchar(120) not null,
+	nPositionID	int not null,
+	sPhone	nvarchar(10) null,
+	dCreate	datetime null,
+	nCreateID	int null,
+	dUpdate	datetime null,
+	nUpdateID	int null,
+	isActive	bit not null,
+	isDel	bit not null,
+);

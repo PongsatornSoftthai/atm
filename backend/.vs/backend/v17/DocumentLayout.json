@@ -1,0 +1,89 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\PaeTest\\atm\\backend\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\models\\commonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:models\\commonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "LoginService.cs",
+              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Services\\LoginService.cs",
+              "RelativeDocumentMoniker": "Services\\LoginService.cs",
+              "ToolTip": "D:\\PaeTest\\atm\\backend\\Services\\LoginService.cs",
+              "RelativeToolTip": "Services\\LoginService.cs",
+              "ViewState": "AQIAAAsAAAAAAAAAAAA3wBQAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:23:43.385Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CommonModel.cs",
+              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Models\\CommonModel.cs",
+              "RelativeDocumentMoniker": "Models\\CommonModel.cs",
+              "ToolTip": "D:\\PaeTest\\atm\\backend\\Models\\CommonModel.cs",
+              "RelativeToolTip": "Models\\CommonModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:47:07.802Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "LoginModel.cs",
+              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Models\\LoginModel.cs",
+              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
+              "ToolTip": "D:\\PaeTest\\atm\\backend\\Models\\LoginModel.cs",
+              "RelativeToolTip": "Models\\LoginModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABBAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:15:35.64Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "LoginController.cs",
+              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Controllers\\LoginController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
+              "ToolTip": "D:\\PaeTest\\atm\\backend\\Controllers\\LoginController.cs",
+              "RelativeToolTip": "Controllers\\LoginController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-05T09:01:34.267Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
