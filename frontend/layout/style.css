@@ -1,0 +1,195 @@
+@import url("https://fonts.googleapis.com/css2?family=Prompt:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Prompt";
+}
+
+header {
+  color: #000;
+  background-color: #bddbc9;
+  width: 85vw;
+  height: 10vh;
+  margin-left: 15vw;
+  padding: 0 3vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.3s;
+}
+
+nav {
+  background-color: #88d3a6;
+  height: 100vh;
+  width: 15vw;
+  min-width: 80px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 2vh 1.5vw;
+  transition: 0.3s;
+}
+
+section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #cccccc;
+  margin: 0 0 0 15vw;
+  width: 85vw;
+  height: 90vh;
+  transition: 0.3s;
+}
+.container {
+  background-color: #fff;
+  width: 97%;
+  height: 85vh;
+  padding: 2%;
+}
+.profile {
+  margin-right: 2vw;
+  min-width: 16vw;
+  max-width: 20vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.profile-pic {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+
+  position: relative;
+  display: inline-block;
+}
+.profile:hover,
+.profile.active {
+  background-color: #aad3bb;
+  border-radius: 5%;
+  height: 80%;
+  width: 20.6%;
+  padding: 0 0.5%;
+  /* border: 0.5rem solid #aad3bb; */
+}
+.dropdown-content {
+  padding: 1vh 1vw;
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  top: 10vh;
+  width: 18vw;
+  border-radius: 5%;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+.dropdown-content.visible {
+  visibility: visible;
+  opacity: 1;
+  transition: 1s;
+}
+
+.logout-btn {
+  background-color: #bddbc9;
+  font-size: 1rem;
+  font-weight: 500;
+  border: 0;
+  border-radius: 5%;
+  position: relative;
+  right: 1vw;
+  width: 112.5%;
+}
+.logout-btn:hover {
+  background-color: #aad3bb;
+}
+
+.logo {
+  min-width: 60%;
+  height: 80px;
+  margin-bottom: 5vh;
+}
+
+menu {
+  width: 100%;
+}
+
+li {
+  color: #000;
+  padding: 1.5vh 0 1.5vh 1.5vw;
+  list-style-type: none;
+  width: 100%;
+  height: 6vh;
+  background-color: #aad3bb;
+  margin: 1vh 0;
+  border-radius: 5%;
+  font-size: 16px;
+}
+
+li:hover {
+  background-color: #c4e1d0;
+}
+
+a {
+  text-decoration: none;
+}
+
+.sub-menu {
+  display: none;
+}
+.sub-menu li {
+  background-color: #9ed1b4;
+}
+.sub-menu li:hover {
+  background-color: #b9e0ca;
+}
+.sub-menu.visible {
+  display: block;
+}
+
+.active {
+  background-color: #c4e1d0;
+}
+
+.btn-collapse {
+  background-color: #04aa6d; /* Green */
+  border: none;
+  font-size: 2rem;
+  color: #000;
+  padding: 0.4vw;
+  height: 6.5vh;
+  border-radius: 10%;
+}
+.btn-collapse:hover {
+  background-color: #19bd81;
+}
+
+nav.collapse {
+  width: 6vw;
+  transition: 0.3s;
+}
+header.collapse {
+  width: 94vw;
+  margin-left: 6vw;
+  transform: 0.3s;
+}
+section.collapse {
+  width: 94vw;
+  margin-left: 6vw;
+  transition: 0.3s;
+}
+li span.collapse {
+  display: none;
+}
+nav.collapse menu Link li,
+nav.collapse menu li,
+nav.collapse menu div Link li {
+  padding: 1.7vh 1vw;
+}

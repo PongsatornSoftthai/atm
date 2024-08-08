@@ -1,19 +1,13 @@
+"use client"
 import TextInput from '@/components/TextInput/TextInput'
-import React from 'react'
+import React, { useState } from 'react'
 
 const TestComponent = () => {
+  const [sVale,SetVAlue] = useState("Test");
   return (
     <>
-      <TextInput 
-        type="text"
-        name="sUsername"
-        label="Username"
-      />
-      <TextInput 
-        type="text"
-        name="sPwd"
-        label="Password"
-      />
+      <TextInput id={"Test"} label={"Test"}value={sVale} type='password' onChange={(e)=>{SetVAlue(e)}}/>
+      <div>{sVale}</div>
     </>
   )
 }

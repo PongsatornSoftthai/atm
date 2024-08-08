@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "D:\\PaeTest\\atm\\backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:controllers\\logincontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\services\\layoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:services\\layoutservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:models\\loginmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\models\\layoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:models\\layoutmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\models\\commonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:models\\commonmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:services\\loginservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|d:\\paetest\\atm\\backend\\controllers\\layoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{30701154-0CDF-48F6-9732-7F985CC1A13F}|backend.csproj|solutionrelative:controllers\\layoutcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,59 +22,44 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "LoginService.cs",
-              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Services\\LoginService.cs",
-              "RelativeDocumentMoniker": "Services\\LoginService.cs",
-              "ToolTip": "D:\\PaeTest\\atm\\backend\\Services\\LoginService.cs",
-              "RelativeToolTip": "Services\\LoginService.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAA3wBQAAAANAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T09:23:43.385Z",
-              "IsPinned": true,
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "CommonModel.cs",
-              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Models\\CommonModel.cs",
-              "RelativeDocumentMoniker": "Models\\CommonModel.cs",
-              "ToolTip": "D:\\PaeTest\\atm\\backend\\Models\\CommonModel.cs",
-              "RelativeToolTip": "Models\\CommonModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAmAAAA",
+              "Title": "LayoutController.cs",
+              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Controllers\\LayoutController.cs",
+              "RelativeDocumentMoniker": "Controllers\\LayoutController.cs",
+              "ToolTip": "D:\\PaeTest\\atm\\backend\\Controllers\\LayoutController.cs",
+              "RelativeToolTip": "Controllers\\LayoutController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T09:47:07.802Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-07T11:16:50.101Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "LoginModel.cs",
-              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Models\\LoginModel.cs",
-              "RelativeDocumentMoniker": "Models\\LoginModel.cs",
-              "ToolTip": "D:\\PaeTest\\atm\\backend\\Models\\LoginModel.cs",
-              "RelativeToolTip": "Models\\LoginModel.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAABBAAAA",
+              "Title": "LayoutModel.cs",
+              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Models\\LayoutModel.cs",
+              "RelativeDocumentMoniker": "Models\\LayoutModel.cs",
+              "ToolTip": "D:\\PaeTest\\atm\\backend\\Models\\LayoutModel.cs",
+              "RelativeToolTip": "Models\\LayoutModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAA+AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T09:15:35.64Z",
+              "WhenOpened": "2024-08-07T11:08:03.388Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "LoginController.cs",
-              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Controllers\\LoginController.cs",
-              "RelativeDocumentMoniker": "Controllers\\LoginController.cs",
-              "ToolTip": "D:\\PaeTest\\atm\\backend\\Controllers\\LoginController.cs",
-              "RelativeToolTip": "Controllers\\LoginController.cs",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABYAAAAIAAAA",
+              "Title": "LayoutService.cs",
+              "DocumentMoniker": "D:\\PaeTest\\atm\\backend\\Services\\LayoutService.cs",
+              "RelativeDocumentMoniker": "Services\\LayoutService.cs",
+              "ToolTip": "D:\\PaeTest\\atm\\backend\\Services\\LayoutService.cs",
+              "RelativeToolTip": "Services\\LayoutService.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAiwBoAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-05T09:01:34.267Z",
+              "WhenOpened": "2024-08-07T10:56:31.708Z",
               "EditorCaption": ""
             }
           ]
