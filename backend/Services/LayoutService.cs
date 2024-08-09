@@ -6,7 +6,6 @@ namespace backend.Services
 {
     public interface ILayoutService
     {
-
         ResultApi GetMenu();
     }
     public class LayoutService : ILayoutService
@@ -18,14 +17,12 @@ namespace backend.Services
         }
         public ResultApi GetMenu()
         {
-
             ResultApi result = new ResultApi();
             ResultMenu resultMenu = new ResultMenu();
             var lstData = _db.TmMenu.Select(s => new ResultMenu() {
                 nMenuID = s.nMenuID,
                 sMenuName = s.sMenuName+"",
 
-            }).ToList();
             result.objResult = lstData;
             return result;
         }
